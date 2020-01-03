@@ -25,14 +25,14 @@ class TrialUser extends User {
 
 //Instance of User Class
 var anonDude = new User("Anonymous");
-anonDude.greet();
-anonDude.status();
+anonDude.greet(); // Welcome back, Anonymous
+anonDude.status(); // Current Status: Trial User
 
 //Instance of TrialUser class
 var trialUser = new TrialUser("Paul");
-trialUser.greet();
-trialUser.trialEnding();
-trialUser.status();
+trialUser.greet(); // Welcome back, Paul
+trialUser.trialEnding(); // Your trial will be ending soon, Paul. Would you like to join our program?
+trialUser.status(); // Current Status: Trial User
 
 
 class BannedUser {
@@ -48,5 +48,6 @@ class BannedUser {
     }
 }
 var badDude = new BannedUser("Bad Dude");
-badDude.greet();
-badDude.status();
+badDude.greet(); // No longer welcomed, Bad Dude
+badDude.status(); // Current Status: Banned for conduct.
+

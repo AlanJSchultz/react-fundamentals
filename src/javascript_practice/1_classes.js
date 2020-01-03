@@ -21,24 +21,25 @@ var anonDude = new User("Anonymous dude");
 
 // we can now use the instance and the . operator
 // to access the 2 methods
-anonDude.greet();
-anonDude.status();
+anonDude.greet(); // Welcome back, Anonymous dude
+anonDude.status(); // Current status: Trial User
 
 // Another instance of the class
 var anonLady = new User("Anonymous lady");
-anonLady.greet();
-anonLady.status();
+anonLady.greet(); // Welcome back, Anonymous lady
+anonLady.status(); // Current status: Trial User
 
 // Another instance of the class
 var jeff = new User("Jeff");
-jeff.greet();
-jeff.status();
+jeff.greet(); // Welcome back, Jeff
+jeff.status(); // Current status: Trial User
 
 // challenge of 2 more
 var hacker = new User("Hacker");
-hacker.greet();
-hacker.status();
+hacker.greet(); // Welcome back, Hacker
+hacker.status(); // Current status: Trial User
 
 var coder = new User("Coder");
-coder.greet();
-coder.status();
+coder.greet(); // Welcome back, Coder
+coder.status(); // Current status: Trial User
+

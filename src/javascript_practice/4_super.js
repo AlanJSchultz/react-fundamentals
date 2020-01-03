@@ -19,8 +19,8 @@ class User {
 
 // Instance of the class/new object
 var anonDude = new User("Anonymous");
-anonDude.greet();
-anonDude.status();
+anonDude.greet(); // Welcome back, Anonymous
+anonDude.status(); // Current status: Trial User
 
 // super
 class BronzeLevelUser extends User {
@@ -39,7 +39,16 @@ class BronzeLevelUser extends User {
 }
 
 var bronzeGuy = new BronzeLevelUser("Bronze Dude", "bronze7589", "4242424242424242");
-bronzeGuy.greet();
-bronzeGuy.status();
+bronzeGuy.greet(); // Welcome back, Bronze Dude
+bronzeGuy.status(); // Current status: Bronze User
 console.log(bronzeGuy);
-bronzeGuy.getInfo();
+/*
+BronzeLevelUser {
+    name: 'Bronze Dude',
+    password: 'bronze7589',
+    type: 'Bronze User',
+    ccinfo: '4242424242424242'
+}
+*/
+bronzeGuy.getInfo(); // Bronze Dude bronze7589 Bronze User 4242424242424242
+
