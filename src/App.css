@@ -16,7 +16,7 @@ footer {
 }
 
 footer p {
-  margin-top: 0.8em!important;
+  margin-top: 1em!important;
   margin-left: 1.5em;
 }
 
@@ -35,7 +35,7 @@ footer p {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: disc;
 }
 
 /* Sidebar */
@@ -43,6 +43,7 @@ ul {
   display: flex;
   background-color: #53565A;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .sidebar-list-styling {
